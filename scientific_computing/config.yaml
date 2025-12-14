@@ -1,0 +1,14 @@
+dependencies:
+  pkg_list: [
+    "RPostgreSQL", "crayon", "tinsel", "tidyverse", "ggforce", "scales", "yaml",
+    "gridExtra" , "stringr", "testthat", "pysch", "lubridate", "Metrics"
+    ]
+
+database:
+  driver_name: "PostgreSQL"
+  name: "gp_practice_data" # enter your database name here
+  host: "localhost"
+  port: 5432
+  user: "postgres" # enter your database user here
+  password: "PgAdmin@123" # enter your database password here
+  data_limit: 1000000 # default limit for gp database
